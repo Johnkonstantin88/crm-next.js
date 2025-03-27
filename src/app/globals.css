@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+@theme {
+  --primary-white: #fafafa;
+  /* zink-50 */
+  --primary-black: #111827;
+  /* grey-900 */
+  --lime: #d9f99d;
+  /* lime-200 */
+  --purple: #e9d5ff;
+  /* purple-200 */
+}
+
+body {
+  background-color: var(--primary-white);
+}
