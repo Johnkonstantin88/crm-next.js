@@ -14,3 +14,7 @@
 body {
   background-color: var(--primary-white);
 }
+
+button {
+  cursor: pointer;
+}

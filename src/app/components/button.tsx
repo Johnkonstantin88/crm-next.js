@@ -1,6 +1,6 @@
 'use client';
 
-import React, { ButtonHTMLAttributes, FC, ReactHTMLElement } from 'react';
+import React, { ButtonHTMLAttributes, FC } from 'react';
 import clsx from 'clsx';
 
 export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -16,9 +16,7 @@ const Button: FC<ButtonProps> = ({ disabled, ...rest }) => {
         !disabled && 'hover:bg-gray-800 active:bg-gray-950',
         disabled && 'text-zinc-100'
       )}
-    >
-      Button
-    </button>
+    />
   );
 };
 
