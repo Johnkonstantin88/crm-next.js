@@ -11,7 +11,7 @@ const SummaryTable: FC<SummaryTableProps> = ({ headers, children }) => {
       <thead>
         <tr>{headers}</tr>
       </thead>
-      <tbody className="[&>tr:nth-child(2n)]:bg-gray-100 [&>tr:nth-child(2n+1)]:bg-white">
+      <tbody className="[&>tr:nth-child(2n)]:bg-white [&>tr:nth-child(2n+1)]:bg-gray-100">
         {children}
       </tbody>
     </table>

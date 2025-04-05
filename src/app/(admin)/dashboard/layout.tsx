@@ -25,7 +25,7 @@ const Layout: FC<LayoutProps> = ({
         <div className="col-span-5">{sales}</div>
         <div className="col-span-7">{categories}</div>
         <div className="col-span-6">{countries}</div>
-        <div className="col-span-6">{promotions}</div>
+        <div className="col-span-6 block h-88 overflow-auto">{promotions}</div>
       </main>
     </div>
   );
